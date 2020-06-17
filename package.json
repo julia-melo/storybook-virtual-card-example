@@ -9,7 +9,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-payment-card-component": "^0.2.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "storycap": "^2.3.5"
   },
   "scripts": {
     "start": "react-scripts start",

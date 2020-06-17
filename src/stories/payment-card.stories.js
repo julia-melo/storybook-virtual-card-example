@@ -7,7 +7,11 @@ import Cartao from '../components/cartao'
 export default {
   title: 'Payment card',
   component: Cartao,
-  decorators: [withKnobs]
+  decorators: [withKnobs],
+  parameters: {
+    component: Cartao,
+    componentSubtitle: 'Exibe um cartão de crédito customizável',
+  },
 };
 
 const bankOptions = [
